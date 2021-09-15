@@ -1,6 +1,6 @@
 # Raise the terrain
 
-### Isometric projection
+## Isometric projection
 
 The following image is the isometric projection of a grid:
 
