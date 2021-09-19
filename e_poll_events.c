@@ -1,6 +1,6 @@
 #include "window.h"
 
-int poll_events()
+int poll_events(void)
 {
 	SDL_Event event;
 	SDL_KeyboardEvent key;

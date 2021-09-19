@@ -15,5 +15,7 @@ int init_instance(SDL_Instance *);
 /* draw functions */
 void draw_stuff(SDL_Instance instance);
 
+/* retrieve events */
+int poll_events(void);
 
 #endif
