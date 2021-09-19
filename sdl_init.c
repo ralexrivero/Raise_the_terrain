@@ -1,4 +1,4 @@
-#include "draw.h"
+#include "window.h"
 
 int main(void)
 {
