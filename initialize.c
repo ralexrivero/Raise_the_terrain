@@ -7,7 +7,7 @@ int main(void)
 	if (init_instance(&instance) != 0)
 		return (1);
 	/* infinit loop */
-	while ("C is awesome")
+	while (1)
 	{
 		SDL_SetRenderDrawColor(instance.renderer, 0, 0, 0, 0);
 		SDL_RenderClear(instance.renderer);
@@ -18,5 +18,8 @@ int main(void)
 		draw_stuff(instance);
 		SDL_RenderPresent(instance.renderer);
 	}
+	SDL_DestroyRenderer(instance.renderer);
+	SDL_DestroyWindow(instance.window);
+	SDL_Quit();
 	return (0);
 }
