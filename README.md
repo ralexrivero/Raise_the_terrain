@@ -18,7 +18,7 @@ The following image is the isometric projection of a grid:
 - OS: Ubuntu 20.04 LTS
 - Editor: VIM 8.1.2269
 - Compiler: gcc 9.3.0
--  SDL2 
+- [SDL2](https://www.libsdl.org/)
 - Style guidelines: [Betty style](https://github.com/holbertonschool/Betty/wiki)
 
 ## Autor
