@@ -22,6 +22,8 @@ Using Simple Directmedia Layer
 - [SDL2](https://www.libsdl.org/)
 - Style guidelines: [Betty style](https://github.com/holbertonschool/Betty/wiki)
 
+## Compilation
+make -f buildandrun
 ## Autor
 
 ```
