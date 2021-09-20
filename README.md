@@ -24,6 +24,9 @@ Using Simple Directmedia Layer
 
 ## Compilation
 make -f buildandrun
+
+# run after compilation
+$ ./renderimg
 ## Autor
 
 ```
